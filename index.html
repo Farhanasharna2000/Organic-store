@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Organic store</title>
     <!-- Daisyui& Tailwind CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -35,7 +35,7 @@
                     },
                     backgroundImage: {
                         bannerBg:"url(./images/leaf01.png)",
-                        call: "url('./images/call.png')",
+                        call: "url(./images/call.jpg)",
                     },
 
                 }
@@ -84,41 +84,122 @@
         </div>
     </nav>
     <!-- banner start  -->
-     <section class=" bg-bannerBg bg-no-repeat  bg-right-bottom">
-<div class="w-full h-full bg-body bg-opacity-90">
-<div class="lg:w-9/12 mx-auto py-28 flex sm:flex-row flex-col items-center">
-    <div class="flex-1">
-<img src="images/bannerbg.png" alt="">
+     
+     <section class="bg-bannerBg bg-no-repeat bg-right-bottom">
+      <div class="h-full w-full bg-body bg-opacity-90">
+          <div
+              class="lg:w-9/12 w-11/12 h-full mx-auto sm:grid grid-cols-2 gap-10 items-center justify-center sm:py-28 py-5">
+              <div >
+                  <img src="./images/bannerbg.png" alt="" />
+              </div>
+              <div class="sm:text-left text-center">
+                  <h4 class="sm:text-xl text-lg font-semibold my-5">
+                      Best Quality Products
+                  </h4>
+                  <h1 class="lg:text-6xl text-4xl font-bold leading-tight">
+                      Join The Organic Movement!
+                  </h1>
+                  <p class="lg:w-3/4 text-neutral-500 my-5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                      tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                  </p>
+                  <div class="flex sm:justify-start justify-center pb-10">
+                      <button
+                          class="flex gap-2 items-center bg-accent hover:bg-primary px-10 py-4 rounded-md font-semibold text-white transition-colors duration-300 ease-in-out">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>shop Now</span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- section: Special features section -->
+  <section class="bg-secondary py-24">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-7 w-11/12 mx-auto ">
+        <!-- card-1  -->
+            <div class="flex  items-start gap-5 bg-body_neutral py-6 px-7 rounded-sm">
+                <div>
+                    <i class="fa-solid fa-truck text-primary text-3xl"></i>
+                </div>
+                <div class="text-white">
+<h2 class="text-sm font-normal">Free Shipping</h2>
+<p class="text-xs text-slate-200 font-light">Above $5 Only</p>
+                </div>
+            </div>
+             <!-- card-2  -->
+             <div class="flex  items-start gap-5 bg-body_neutral py-6 px-7 rounded-sm">
+                <div>
+                    <i class="fa-solid fa-certificate text-primary text-3xl"></i>
+                </div>
+                <div class="text-white">
+<h2 class="text-sm font-normal">Certified Organic</h2>
+<p class="text-xs text-slate-200 font-light">100% Organic</p>
+                </div>
+            </div>
+             <!-- card-3  -->
+             <div class="flex  items-start gap-5 bg-body_neutral py-6 px-7 rounded-sm">
+                <div>
+                    <i class="fa-solid fa-piggy-bank text-primary text-3xl"></i>
+                </div>
+                <div class="text-white">
+<h2 class="text-sm font-normal">Huge Savings</h2>
+<p class="text-xs text-slate-200 font-light">At Lowest Price</p>
+                </div>
+            </div>
+             <!-- card-4  -->
+             <div class="flex  items-start gap-5 bg-body_neutral py-6 px-7 rounded-sm">
+                <div>
+                    <i class="fa-solid fa-recycle text-primary text-3xl"></i>
+                </div>
+                <div class="text-white">
+<h2 class="text-sm font-normal">Easy Returns</h2>
+<p class="text-xs text-slate-200 font-light">No Questions Asked</p>
+                </div>
+            </div>
     </div>
-    <div class="flex-1 sm:text-left text-center">
-<h4 class="text-xl font-semibold my-5">Best Quality Products</h4>
-<h1 class="lg:text-6xl text-4xl font-semibold leading-tight">Join Organic Movement!</h1>
-<p class="my-5 text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, modi.</p>
-<div class="flex sm:justify-start justify-center">
-    <button class=" flex items-center gap-2 text-white bg-accent rounded-md px-10 py-5">
-        <i class="fa-solid fa-cart-shopping"></i> <span>Shop Now </span>
-    </button>
+</section>
+<!-- about section  -->
+ <section>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+<div class="py-20 space-y-7 w-11/12 mx-auto">
+<h5 class="text-xs font-semibold">About Us</h5>
+<h2 class="sm:text-5xl text-4xl capitalize">tell website visitors who you are and why they should choose your
+    business</h2>
+    <p class="sm:text-sm text-base font-medium leading-8 text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+        earum, tenetur quam repellendus architecto sequi consequatur
+        deserunt illum? Repellat, consequatur quae. Ut, quas distinctio
+        expedita perspiciatis molestias voluptas nam optio unde sunt dolor,
+        quo dicta reiciendis! Alias nostrum tempore blanditiis earum eum
+        autem sapiente voluptatum. Optio sunt perferendis maiores natus!</p>
+        <button
+            class="text-sm bg-accent hover:bg-primary px-10 py-4 rounded-md font-semibold text-white transition-colors duration-300 ease-in-out">
+            Find Out More
+        </button>
 </div>
+<div>
+    <img src="images/about.jpg" alt="">
+</div>
+
     </div>
-</div>
-</div>
-     </section>
+ </section>
+ 
      <!-- call to action section  -->
-     <!-- <div
-     class="hero min-h-screen"
-     style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);">
-     <div class="hero-overlay bg-opacity-60"></div>
+     <div
+     class="hero py-24 bg-call"
+    >
      <div class="hero-content text-neutral-content text-center">
-       <div class="max-w-md">
-         <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-         <p class="mb-5">
-           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-           quasi. In deleniti eaque aut repudiandae et a id nisi.
+       <div class="space-y-5 text-white ">
+         <h1 class=" text-5xl font-bold ">Insert A call to action</h1>
+         <p class=" lg:w-2/3 mx-auto text-xl">
+          think of what you want your visitors to do next maybe they should
+          contact you?
          </p>
-         <button class="btn btn-primary">Get Started</button>
+         <button class="btn text-white border-white bg-transparent hover:bg-primary hover:border-primary">Get Started</button>
        </div>
      </div>
-   </div> -->
+   </div>
+    
    <!-- Best selling section  -->
     <section class="bg-body py-10">
 <div class="w-11/12 mx-auto">
@@ -128,6 +209,7 @@
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 m-10">
        
+          
           <div class="card bg-base-100 w-full shadow">
             <figure class="px-10 pt-10">
               <img
@@ -156,7 +238,7 @@
           <div class="card bg-base-100 w-full shadow">
             <figure class="px-10 pt-10">
               <img
-                src="images/product01.jpg"
+                src="images/product02.jpg"
                 alt="Shoes"
                 class="rounded-md" />
             </figure>
@@ -181,7 +263,7 @@
           <div class="card bg-base-100 w-full shadow">
             <figure class="px-10 pt-10">
               <img
-                src="images/product01.jpg"
+                src="images/product03.jpg"
                 alt="Shoes"
                 class="rounded-md" />
             </figure>
@@ -206,7 +288,7 @@
           <div class="card bg-base-100 w-full shadow">
             <figure class="px-10 pt-10">
               <img
-                src="images/product01.jpg"
+                src="images/product04.jpg"
                 alt="Shoes"
                 class="rounded-md" />
             </figure>
@@ -231,7 +313,7 @@
           <div class="card bg-base-100 w-full shadow">
             <figure class="px-10 pt-10">
               <img
-                src="images/product01.jpg"
+                src="images/product05.jpg"
                 alt="Shoes"
                 class="rounded-md" />
             </figure>
@@ -256,7 +338,7 @@
           <div class="card bg-base-100 w-full shadow">
             <figure class="px-10 pt-10">
               <img
-                src="images/product01.jpg"
+                src="images/product06.jpg"
                 alt="Shoes"
                 class="rounded-md" />
             </figure>
@@ -281,7 +363,7 @@
           <div class="card bg-base-100 w-full shadow">
             <figure class="px-10 pt-10">
               <img
-                src="images/product01.jpg"
+                src="images/product07.jpg"
                 alt="Shoes"
                 class="rounded-md" />
             </figure>
@@ -306,7 +388,7 @@
           <div class="card bg-base-100 w-full shadow">
             <figure class="px-10 pt-10">
               <img
-                src="images/product01.jpg"
+                src="images/product08.jpg"
                 alt="Shoes"
                 class="rounded-md" />
             </figure>
@@ -330,6 +412,17 @@
           </div>
     </div>
 </div>
+    </section>
+    <!-- brands section start -->
+    <section class="flex lg:flex-row flex-col bg-white justify-center items-center py-10 bg-body">
+        <h2 class="text-xl font-semibold">Featured Brands:</h2>
+        <div class="flex lg:flex-nowrap flex-wrap justify-center items-center">
+            <img class="w-32" src="./images/logo-1.svg" alt="" />
+            <img class="w-32" src="./images/logo-2.svg" alt="" />
+            <img class="w-32" src="./images/logo-3.svg" alt="" />
+            <img class="w-32" src="./images/logo-4.svg" alt="" />
+            <img class="w-32" src="./images/logo-5.svg" alt="" />
+        </div>
     </section>
     <footer class="bg-secondary text-white py-20">
         <div class="footer w-11/12 mx-auto">
